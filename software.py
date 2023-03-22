@@ -10,7 +10,6 @@ def menu():
 
 def encode(password):
     new_password = [element + 3 for element in password if element == element]
-    print(new_password)
     return new_password
 
 
@@ -23,15 +22,9 @@ def main():
         encode(password)
         print('Your password has been encoded and stored!')
 
-    '''
-    if choice == 2:
-        new_password = encode(password)
-        [(i, end="") for i in new_password]
-        print(f'The encoded password is {new_password}, and the original password is {password}')
-    else:
-        exit()
-    '''
-
 
 if __name__ == "__main__":
-    main()
+    while True:
+        main()
+        print()
+        
