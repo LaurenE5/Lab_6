@@ -22,6 +22,11 @@ def main():
         encode(password)
         print('Your password has been encoded and stored!')
 
+    # Choice 2
+
+    if choice == 3:
+        exit()
+
 
 if __name__ == "__main__":
     while True:
